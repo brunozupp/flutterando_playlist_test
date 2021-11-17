@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
             if(bloc.state is TaskErrorState) {
               return _ErrorWidget();
             } else if(bloc.state is TaskLoadingState) {
-              return CircularProgressIndicator();
+              return LoadingProgress();
             } else {
               return _ListWidget();
             }
@@ -52,6 +52,15 @@ class HomePage extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+class LoadingProgress extends StatelessWidget {
+  const LoadingProgress({ Key? key }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Text("Carregando");
   }
 }
 
