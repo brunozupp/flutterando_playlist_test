@@ -5,8 +5,7 @@ import 'package:flutterando_playlist_test/repositories/task_repository.dart';
 import 'package:flutterando_playlist_test/states/task_state.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:test/expect.dart';
-import 'package:test/scaffolding.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 import 'task_bloc_test.mocks.dart';
 

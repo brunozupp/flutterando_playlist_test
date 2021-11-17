@@ -1,9 +1,8 @@
+import 'package:flutter_test/flutter_test.dart';
 import 'package:flutterando_playlist_test/repositories/task_repository.dart';
 import 'package:http/http.dart' as http;
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:test/expect.dart';
-import 'package:test/scaffolding.dart';
 
 import 'task_repository_test.mocks.dart';
 

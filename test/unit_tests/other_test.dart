@@ -1,7 +1,7 @@
 @Timeout(Duration(seconds: 60))
 //@Skip("Feature ainda não completa") // Não vai executar a suit
 //@Tags(['TAG_A','TAG_B']) // Tagear toda a suit
-import 'package:test/test.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   

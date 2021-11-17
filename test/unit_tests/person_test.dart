@@ -1,5 +1,5 @@
 import 'package:flutterando_playlist_test/models/person.dart';
-import 'package:test/test.dart';
+import 'package:flutter_test/flutter_test.dart';
 
 void main() {
 
